@@ -1,0 +1,20 @@
+{
+  "name": "hem-compiler-haml",
+  "version": "0.1.0",
+  "author": "Ben Johnson <deafgreatdane@gmail.com>",
+  "description": "Shim for hem, adds haml-coffee compiler",
+  "dependencies": {
+    "coffee-script": "*",
+    "haml-coffee": "*"
+  },
+    "contributors": [
+      {
+        "name": "Vojtech Rinik",
+        "email": "vojto@rinik.net"
+      }
+    ],
+  "files": [
+          "lib/hem-compiler-haml.js"
+  ],
+   "main":"./lib/hem-compiler-haml.js"
+}
